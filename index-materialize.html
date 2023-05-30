@@ -40,23 +40,23 @@
         <br>
         <div class="row">
             <div class="col m6">
-                <h1>{{user.fullName}}</h1>
-                <p>{{user.qalification}}<br>{{user.universityName}}</p>
+                <h1>{{data.user.fullName}}</h1>
+                <p>{{data.user.qalification}}<br>{{data.user.universityName}}</p>
             </div>
-            <div class="col"><img class="img" src={{user.photo}}></div>
+            <div class="col"><img class="img" src={{data.user.photo}}></div>
         </div>
 
     </div>
     <hr>
-    <a href={{pages.homePage}} class="btn btn-primary">HOME</a>
+    <a href={{data.pages.homePage}} class="btn btn-primary">HOME</a>
     <hr>
     <div class="row">
-        <h3>{{city.name}}</h3>
+        <h3>{{data.city.name}}</h3>
     </div>
 
     <div class="row">
-        <div class="col m6"><img class="img" src={{city.photo}}></div>
-        <div class="col m6">{{city.description}}</div>
+        <div class="col m6"><img class="img" src={{data.city.photo}}></div>
+        <div class="col m6">{{data.city.description}}</div>
     </div>
     <hr>
 
@@ -69,7 +69,7 @@
                 <th>English</th>
                 <th>Foreign Language</th>
             </tr>
-            {{#each foreignLanguage.phrases}}
+            {{#each data.foreignLanguage.phrases}}
             <tr>
                 <td>{{englishPhrase}}</td>
                 <td>{{foreignLanguage}}</td>
@@ -82,7 +82,7 @@
         <h4>FAVOURITE SUBJECTS</h4>
     </div>
     <div class="row">
-        {{#each favouriteSubjects}}
+        {{#each data.favouriteSubjects}}
         <div class="row">
             <h4>{{name}}</h4>
         </div>
