@@ -1,14 +1,14 @@
 {
     "user": {
         "fullName": "Mfundo Branden Gwebu",
-        "photo": "/images/Mfundo.jpg",
-        "backgroundImage": "/images/Table_mountain.jpg",
+        "photo": "./Mfundo.png",
+        "backgroundImage": "./Table_mountain.png",
         "qalification":"BSc Hon in Construction Project management",
         "universityName": "University of Johannesburg"
     },
     "city": {
         "name": "DUBAI",
-        "photo": "/images/Dubai.jpg",
+        "photo": "./Dubai.png",
         "description": "It has the most luxurious hotels which are 7 star hotels, large shopping malls that have over 1 200 shops and there is a 200m bridge that links Dubai Mall to an extension of the mall called The Dubai Mall Zabeel, which contains another 63 stores. A variety of activities and experiences like indoor theme parks, and an underwater zoo. It has the best nightlife and an amazing culture."
     },
     "foreignLanguage": {
@@ -32,17 +32,17 @@
         {
             "name": "Maths",
             "description": " is the science and study of quality, structure, space, and change. Mathematicians seek out patterns, formulate new conjectures, and establish truth by rigorous deduction from appropriately chosen axioms and definitions. Math is all around us, in everything we do. It is the building block for everything in our daily lives, including mobile devices, computers, software, architecture (ancient and modern), art, money, engineering and even sports.",
-            "photo": "/images/Maths.jpg"
+            "photo": "./Maths.png"
         },
         {
             "name": "Geology",
             "description": "Geology is the study of the Earth, the materials of which it is made, the structure of those materials, and the processes acting upon them. It includes the study of organisms that have inhabited our planet. An important part of geology is the study of how Earth's materials, structures, processes and organisms have changed over time.",
-            "photo": "/images/Geology.jpg"
+            "photo": "./Geology.png"
         },
         {
             "name": "Building Structures",
             "description": "Within the context of the built environment , the term ‘structure’ refers to anything that is constructed or built from different interrelated parts with a fixed location on the ground. This includes complete items such as buildings, and parts of items, such as arches. It can also be used to refer to a body of connected parts that is designed to bear loads, but is not intended to be occupied by people. Engineers sometimes refer to these as 'non-building' structures.",
-            "photo": "/images/Building_structures.jpg"
+            "photo": "./Building_structures.png"
         }
     ],
     "pages":{
